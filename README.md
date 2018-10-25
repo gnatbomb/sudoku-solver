@@ -16,4 +16,4 @@ The puzzle file has the format :
     
 Where any '0' entry represents an empty square, and any non-zero integer entry represents a solved square. 
 
-The proram solves the puzzle by first using a cross-hatching method to find when squares can have only one solution, and when this fails to find any more guarenteed solutions, then it uses DFS to find a solution on the remaining tiles.
+The program solves the puzzle by first using a cross-hatching method to find when squares can have only one solution. If this fails to find any more guarenteed solutions, then it uses DFS to find a solution on the remaining tiles.
